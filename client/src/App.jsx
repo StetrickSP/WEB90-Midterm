@@ -64,7 +64,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6 justify-center">
-      <h1 className="text-2xl font-bold text-center mb-6">MERN API WEB90 Midterm</h1>
+      <h1 className="text-2xl font-bold text-center mb-6">WEB90 Midterm</h1>
 
       <div className="grid gap-6 max-w-md mx-auto">
         <div className="p-4 bg-white shadow rounded-2xl">

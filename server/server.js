@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json()); 
 app.use(cors());
 
-/// Connect to MongoDB using mongoose with ClientOptions
+/// Connect to MongoDB using mongoose
 try {
     mongoose.connection.on("connected", () => console.log("Database connected"));
     await mongoose.connect(uri);
